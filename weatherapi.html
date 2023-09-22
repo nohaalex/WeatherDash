@@ -16,77 +16,63 @@
 
 
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin: 20px;
-        background-color: gray;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column; /* Center content vertically on small screens */
-    }
 
-    h1 {
-        color: white;
-    }
+    <style>
+	body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color:gray;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
-    .search {
-        margin: 20px auto;
-        max-width: 300px;
-        border-radius: 10px;
-        width: 100%; /* Expand to full width on small screens */
-    }
+h1 {
+    color: white;
+}
 
-    input[type="text"] {
-        padding: 10px;
-        width: 100%; /* Expand to full width on small screens */
-        border: 1px solid #ccc;
-    }
+.search {
+    margin: 20px auto;
+    max-width: 300px;
+    border-radius:10px;
+}
 
-    button {
-        padding: 10px 20px;
-        background-color: #007BFF;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-    }
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+}
 
-    #weatherInfo {
-        margin: 20px auto;
-        max-width: 300px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        color: white;
-        background-image: linear-gradient(to bottom, black, gray);
-        width: 100%; /* Expand to full width on small screens */
-    }
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
 
-    .container {
-        background-color: black;
-        border: 2px solid white;
-        width: 100%; /* Expand to full width on small screens */
-        max-width: 400px; /* Limit maximum width on larger screens */
-        height: auto; /* Adjust height as needed */
-        border-radius: 25px;
-        box-shadow: 30px 30px 35px 15px black;
-    }
+#weatherInfo {
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color:white;
+    background-image:linear-gradient(to bottom, black, gray);
+}
 
-    @media (min-width: 768px) {
-        /* Apply these styles for screens wider than 768px */
-        body {
-            flex-direction: row; /* Arrange content horizontally on larger screens */
-        }
+.container{
+	background-color:black;
+	border:2px solid white;
+	width:400px;
+	height:450px;
+	border-radius:25px;
+	box-shadow:30px 30px 35px 15px black;
+}
 
-        .search,
-        #weatherInfo,
-        .container {
-            width: auto; /* Reset width to default on larger screens */
-        }
-    }
-</style>
+    </style>
+
 
 
 
